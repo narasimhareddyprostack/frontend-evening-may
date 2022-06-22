@@ -1,0 +1,11 @@
+What is object?
+- Group of key:value pair as one entity
+- group of properties(property Name:  property Value)
+- group of data and functionality
+
+Js Object - Index concept is not applicable
+JS Object - Duplicate keys are not allowed
+            but values are allowed
+Js Object - is not iterable object.
+
+To Iterate object - for( in ){}
