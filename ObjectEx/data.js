@@ -6,7 +6,7 @@ let employee = {
     loc: ["Banagalore", "Noida"],
     email: undefined,
     details: function () {
-        console.log("Hello,Good Evening")
+        console.log("Hello,Good Evening......")
     }
 }
 console.log(Object.keys(employee).length)
