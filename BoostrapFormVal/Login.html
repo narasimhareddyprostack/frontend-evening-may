@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="./val.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Form Validations</a>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4>Login Details</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email" placeholder="Email Id" />
+                                <span id="emailMessage" style="color: red;"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="password" placeholder="Password" />
+                                <span id="passwordMessage" style="color: red;"></span>
+                            </div>
+                            <button class="btn btn-success" onclick="return validate()">Login</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
