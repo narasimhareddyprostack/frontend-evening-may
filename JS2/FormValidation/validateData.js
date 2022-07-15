@@ -3,7 +3,7 @@ function validate() {
     let password = document.getElementById('password').value;
 
     if (email == "") {
-        document.getElementById("emailMessage").innerHTML = "Hello, GM"
+        document.getElementById("emailMessage").innerHTML = "Please Enter Valid Email ID"
     }
     if (password == "") {
         document.getElementById('passwordMessage').innerHTML = "Please Enter Passwrod"
